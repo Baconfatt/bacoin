@@ -47,7 +47,7 @@ Var StartMenuGroup
 # Installer attributes
 OutFile litecoin-0.6.3-win32-setup.exe
 InstallDir $PROGRAMFILES\Litecoin
-CRCCheck on
+BACONCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show

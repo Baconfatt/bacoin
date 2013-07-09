@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CRC");
-    case mBTC: return QString("mCRC");
-    case uBTC: return QString::fromUtf8("μCRC");
+    case BTC: return QString("BACON");
+    case mBTC: return QString("mBACON");
+    case uBTC: return QString::fromUtf8("μBACON");
     default: return QString("???");
     }
 }
@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("CraftCoin");
-    case mBTC: return QString("milliCraftCoin (1 / 1,000)");
-    case uBTC: return QString("microCraftCoin (1 / 1,000,000)");
+    case BTC: return QString("BaCoin");
+    case mBTC: return QString("milliBaCoin (1 / 1,000)");
+    case uBTC: return QString("microBaCoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of CraftCoin is called a "wander."
+//a single unit (.00000001) of BaCoin is called a "wander."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)

@@ -1,0 +1,9 @@
+Building CraftCoin
+
+See doc/readme-qt.rst for instructions on building bacoin-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of CraftCoin.
+
+See doc/build-*.txt for instructions on building bacoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of CraftCoin.
